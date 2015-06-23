@@ -46,7 +46,8 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #6C7A89;
+     background-color: ##ECF0F1;
+     color: #34495E;
      font-size: 12px;
      line-height: 1.4;
      font-family: baskerville, cochin, georgia, times, serif;
@@ -58,7 +59,7 @@ body {
 
 header {
      height: 60px;
-     background: #fff;
+     background: none;
      border-bottom: 1px solid #BDC3C7;
      margin: 20px 35px 0 35px;
 
@@ -82,7 +83,7 @@ nav li{
 }
 
 li a {
-     color: #6C7A89;
+     color: #34495E;
      text-decoration: none;
      padding-top: 10px;
 }
@@ -112,7 +113,7 @@ main {
 
 strong a{
      text-decoration: none;
-     color: #6C7A89;
+     color: #34495E;
      border-bottom: 1px solid #34495E;
 }
 
@@ -124,6 +125,27 @@ footer {
      padding-top: 10px;
      text-align: right;
      padding-right: 35px;
+}
+small {
+     font-size: 11px;
+     text-transform: uppercase;
+          letter-spacing: 1px;
+
+}
+
+li p{
+     font-size: 18px;
+     padding-top: 10px;
+}
+
+h3 {
+     padding-top: 20px;
+}
+
+h4 {
+     text-transform: uppercase;
+     font-size: 14px;
+     letter-spacing: 1px;
 }
 /******************************************
 /* LAYOUT                   
